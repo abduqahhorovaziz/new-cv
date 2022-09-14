@@ -4,7 +4,10 @@
     height: 265px;
     padding: 48px;
     border-radius: 10px 10px 0 0;
-    background-image: url('./../../img/cover-bg.jpg');
+    // background-image: url('./../../img/cover-bg.jpg');
+    background-color: $span-color;
+
+
 }
 
 .cover__avatar {
@@ -62,7 +65,7 @@
 
     transition: transform .18s ease-in;
 
-    &:hover{
+    &:hover {
         transform: translateY(-2px);
     }
 }
